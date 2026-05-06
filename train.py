@@ -22,7 +22,7 @@ from data.cxp_dataloader_cut import construct_cxp_cut
 from data.openi_dataloader_cut import construct_openi_cut
 from data.padchest_dataloader_cut import construct_pc_cut
 from metrics import _test_google_nih, _test_google_nih14, _test_openi, _test_pc
-from eval_lsrs_clean import load_checkpoint
+from eval import load_checkpoint
 from utils.NSD import NSD
 from utils.loss_gls import focal_loss_tail, loss_gls_logits
 from utils.mid_loss import MID_LOSS, AsymmetricLossClassWiseSmooth
