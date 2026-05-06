@@ -27,8 +27,8 @@ SRCC/
 ├── data/                  # dataset loaders
 ├── utils/                 # loss functions and utilities
 ├── gcn_ours.py            # model definition
-├── train_lsrs_clean.py    # training script
-├── eval_lsrs_clean.py     # evaluation script
+├── train.py    # training script
+├── eval.py     # evaluation script
 ├── metrics.py             # evaluation metrics
 └── voc.py                 # VOC dataset utilities
 ```
