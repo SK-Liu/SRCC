@@ -21,15 +21,17 @@ Our method integrates:
 ---
 
 ## 📁 Repository Structure
-SRCC/
-├── data/ # dataset loaders
-├── utils/ # loss functions and utilities
-├── gcn_ours.py # model definition
-├── train_lsrs_clean.py # training script
-├── eval_lsrs_clean.py # evaluation script
-├── metrics.py # evaluation metrics
-├── voc.py # VOC dataset utilities
 
+```text
+SRCC/
+├── data/                  # dataset loaders
+├── utils/                 # loss functions and utilities
+├── gcn_ours.py            # model definition
+├── train_lsrs_clean.py    # training script
+├── eval_lsrs_clean.py     # evaluation script
+├── metrics.py             # evaluation metrics
+└── voc.py                 # VOC dataset utilities
+```
 
 ---
 
@@ -40,9 +42,9 @@ SRCC/
 - CUDA (recommended)
 
 Install dependencies:
-
 ```bash
 pip install torch torchvision numpy
+```
 
 ## 📊 Datasets
 We conduct experiments on:
